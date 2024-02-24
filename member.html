@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign In or Sign Up- Lone Star Sports Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/ico">
+</head>
+
+<body class="body-custom">
+    <h1 class="h1-custom">Account Access</h1>
+    <nav id="member-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact & Location</a></li>
+            <li><a href="history.html">Texas Sports History</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <!-- Registration Form -->
+        <div class="form-container registration-form">
+            <h2>Registration</h2>
+            <form action="#" method="post">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="confirm_password">Confirm Password:</label><br>
+                <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+                <label for="first_name">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" required><br><br>
+
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" id="last_name" name="last_name" required><br><br>
+
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" required></textarea><br><br>
+
+                <fieldset>
+                    <legend>Favorite Team:</legend>
+                    <input type="checkbox" id="dallas_cowboys" name="favorite_team" value="Dallas Cowboys">
+                    <label for="dallas_cowboys">Dallas Cowboys</label><br>
+                    <input type="checkbox" id="houston_texans" name="favorite_team" value="Houston Texans">
+                    <label for="houston_texans">Houston Texans</label><br>
+                    <input type="checkbox" id="houston_astros" name="favorite_team" value="Houston Astros">
+                    <label for="houston_astros">Houston Astros</label><br>
+                    <input type="checkbox" id="texas_rangers" name="favorite_team" value="Texas Rangers">
+                    <label for="texas_rangers">Texas Rangers</label><br>
+                    <input type="checkbox" id="dallas_mavericks" name="favorite_team" value="Dallas Mavericks">
+                    <label for="dallas_mavericks">Dallas Mavericks</label><br>
+                    <input type="checkbox" id="houston_rockets" name="favorite_team" value="Houston Rockets">
+                    <label for="houston_rockets">Houston Rockets</label><br>
+                    <input type="checkbox" id="san_antonio_spurs" name="favorite_team" value="San Antonio Spurs">
+                    <label for="san_antonio_spurs">San Antonio Spurs</label><br>
+                    <input type="checkbox" id="dallas_stars" name="favorite_team" value="Dallas Stars">
+                    <label for="dallas_stars">Dallas Stars</label><br>
+                    <input type="checkbox" id="fc_dallas" name="favorite_team" value="FC Dallas">
+                    <label for="fc_dallas">FC Dallas</label><br>
+                    <input type="checkbox" id="texas_longhorns" name="favorite_team" value="Texas Longhorns">
+                    <label for="texas_longhorns">Texas Longhorns</label><br>
+                    <input type="checkbox" id="texas_am_aggies" name="favorite_team" value="Texas A&M Aggies">
+                    <label for="texas_am_aggies">Texas A&M Aggies</label><br>
+                    <input type="checkbox" id="texas_tech_red_raiders" name="favorite_team"
+                        value="Texas Tech Red Raiders">
+                    <label for="texas_tech_red_raiders">Texas Tech Red Raiders</label><br>
+                </fieldset><br><br>
+
+
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <div class="vertical-divider"></div> <!-- Vertical Divider -->
+        <!-- Sign In Form -->
+        <div class="form-container sign-in">
+            <hr>  <!-- For Smartphone Display -->
+            <h2>Sign In</h2>
+            <form action="#" method="post">
+                <label for="signin-email">Email:</label>
+                <input type="text" id="signin-email" name="signin-email" required>
+
+                <label for="signin-password">Password:</label>
+                <input type="password" id="signin-password" name="signin-password" required>
+
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,775 @@
+/* Basic Styling */
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color: #001F3F;
+}
+
+body a {
+    color: #FF5722;
+}
+
+/* Shop Table for Promo and Deals */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #FF5722;
+    color: white;
+    caption-side: top;
+    text-align: center;
+    border: 1px solid #001F3F;
+}
+
+thead th {
+    background-color: #FF5722;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid #001F3F;
+    border-bottom: 1px solid #001F3F;
+}
+
+tbody td {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    border: 1px solid #001F3F;
+}
+
+tbody tr:last-child td {
+    border-bottom: 1px solid #001F3F;
+}
+
+.deal-rule {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* member.html */
+.body-custom {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.h1-custom {
+    text-align: center;
+    color: white;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #FF5722;
+    display: flex;
+    align-items: stretch;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 0;
+}
+
+.vertical-divider {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 8px;
+}
+
+.form-container.registration-form label {
+    margin-bottom: -10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container textarea,
+.form-container select {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #D84315;
+}
+
+.form-container.sign-in [type="submit"] {
+
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* NAV */
+#member-nav a {
+    color: white;
+}
+
+#member-nav a:hover {
+    color: #001F3F;
+}
+
+#member-nav {
+    background-color: #FF5722;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #001F3F;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #FF5722;
+}
+
+nav {
+    background-color: #001F3F;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #FF5722;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* Transition */
+    transition: color 1s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FF5722;
+}
+
+#second-nav {
+    background-color: #FF5722;
+    border: 1px solid #001F3F;
+}
+
+#second-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#second-nav ul li {
+    display: inline;
+}
+
+#second-nav ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+#second-nav ul li a:hover {
+    color: #001F3F;
+}
+
+/* Styling for History.html */
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-row {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 200px;
+    height: 125px;
+    margin: 0 10px;
+}
+
+/* Styling for video in index.html */
+video {
+    width: 100%;
+    height: auto;
+    max-width: 240px;
+    border: 2px solid #001F3F;
+}
+
+.two-column-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.video-container {
+    max-width: 240px;
+    padding-top: 20px;
+}
+
+/* Styling for Shop.html */
+a.button {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    background-color: #FF5722;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+a.button:hover {
+    background-color: #001F3F;
+    /* Button color on hover */
+}
+
+.merchandise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.merchandise img {
+    width: 100px;
+    margin: 0 10px;
+    background-color: #dddddd;
+    border: 1px solid #FF5722;
+}
+
+.team-name {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Styling for Team Pages i.e dallas-cowboys-merch.html */
+.merchandise-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-top: 30px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    max-width: 200px;
+    height: auto;
+}
+
+.item h3,
+.item p {
+    margin: 10px 0;
+}
+
+.size-select,
+.quantity-select {
+    display: inline-block;
+}
+
+.quantity-select {
+    padding-left: 15px;
+}
+
+.size-select select,
+.quantity-select select {
+    width: auto;
+}
+
+.add-to-cart {
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.team-center {
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+button:hover {
+    background-color: #001F3F;
+}
+
+
+/* Media Queries for Desktop */
+@media (min-width: 1024px) {
+    body {
+        background: linear-gradient(to bottom, #001F3F, #FFFFFF);
+    }
+
+    header {
+        background-color: #FF5722;
+        background: linear-gradient(to bottom, white, #FF5722);
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    header img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin-top: -100px;
+        margin-bottom: -150px;
+    }
+
+
+    h1 {
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    h2,
+    h3,
+    h4 {
+        margin-bottom: 10px;
+    }
+
+
+
+
+    main {
+        padding: 20px;
+    }
+
+    ul {
+        list-style-image: url(images/star.png);
+    }
+
+    #wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 10px white;
+    }
+
+    p a:hover {
+        color: #001F3F;
+    }
+
+    footer {
+        background-color: #001F3F;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    footer a {
+        color: #FF5722;
+    }
+
+    #homehero {
+        height: 300px;
+        background: url(images/home.jpg) no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    #abouthero {
+        height: 300px;
+        background: url(images/about.jpg) no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+
+
+    #social-media img {
+        margin: 0 50px 0 10px;
+    }
+
+    .two-column-layout {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    #contact {
+        flex: 1;
+    }
+
+    #contact-info {
+        background-color: #001F3F;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #contact-info ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #contact-info h2 {
+        color: white;
+    }
+
+    #contact-info li {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    #contact-info a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #contact-info a:hover {
+        color: #FF5722;
+    }
+
+    #sports-map img {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #FF5722;
+    }
+
+    .deal-header {
+        display: none;
+    }
+
+    .deal-list {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #under-construction {
+        font-size: large;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+    }
+
+    #cart-total {
+        margin-top: 100px;
+    }
+
+    #checkout-btn {
+        margin: 50px 0px 20px 0px;
+
+    }
+
+}
+
+
+/* Media Queries for Smartphones */
+@media (max-width: 600px) {
+
+    body {
+        background-color: #FFFFFF;
+    }
+
+    header {
+        background-color: #FF5722;
+        padding: 10px 0;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        max-width: 80%;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: -100px;
+    }
+
+
+    main {
+        padding: 10px;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #contact-info {
+        background-color: #001F3F;
+        padding: 15px;
+        border-radius: 8px;
+        color: white;
+    }
+
+    #contact-info h2,
+    #contact-info li,
+    #contact-info a {
+        color: #FF5722;
+    }
+
+    #social-media img {
+        margin: 0 50px 0 10px;
+    }
+
+    #business-hours {
+        margin-top: 10px;
+    }
+
+    footer {
+        background-color: #001F3F;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    footer a {
+        color: #FF5722;
+    }
+
+
+    table {
+        display: none;
+    }
+
+    .deal-header {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+
+    .deal-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .deal-list li {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .deal-list li h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    .deal-list li p {
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .deal-list li .deal-rule {
+        font-style: italic;
+        font-size: 0.8em;
+        color: #777;
+    }
+
+    .table-header {
+        display: none;
+    }
+
+    .h1-custom {
+        text-align: center;
+        color: #001F3F;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .form-container {
+        margin-right: 0;
+    }
+
+    .form-container:last-child {
+        margin-right: 0;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+
+    video {
+        display: none;
+    }
+
+    .merchandise img {
+        width: 90px;
+        margin: 0 10px;
+    }
+
+    a.button {
+        padding: 5px 10px;
+    }
+
+}
+
+
+
+/* Media Queries for Tablets */
+@media (min-width: 601px) and (max-width: 1023px) {
+    body {
+        background-color: white;
+        color: #001F3F;
+    }
+
+    header {
+        background-color: #FF5722;
+        background: linear-gradient(to bottom, white, #FF5722);
+        color: #FFFFFF;
+        padding: 10px 0;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        max-width: 90%;
+        height: auto;
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: -120px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #contact-info {
+        padding: 20px;
+    }
+
+    #social-media img {
+        margin: 0 50px 0 10px;
+    }
+
+    #sports-map img {
+        max-width: 90%;
+    }
+
+    footer {
+        background-color: #001F3F;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    footer a {
+        color: #FF5722;
+    }
+
+    table {
+        overflow-x: scroll;
+        font-size: 0.9em;
+        padding: 0;
+    }
+
+    thead th {
+        padding: 0px;
+        font-size: 0.9em;
+    }
+
+    tbody td {
+        padding-bottom: 0px;
+    }
+
+    .deal-header {
+        display: none;
+    }
+
+    .deal-list {
+        display: none;
+    }
+
+    .h1-custom {
+        text-align: center;
+        color: #001F3F;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .merchandise img {
+        width: 100px;
+        margin: 0 10px;
+    }
+}
